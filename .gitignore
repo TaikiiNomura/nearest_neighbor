@@ -1,0 +1,9 @@
+# Python caches
+__pycache__/
+
+*.jpg
+*.png
+*_mosaic.png
+
+# Colab specific
+sample_data/

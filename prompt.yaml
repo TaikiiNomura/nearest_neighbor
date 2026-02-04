@@ -1,0 +1,31 @@
+project:
+  name: Google Colab Image Mosaic Processor
+  language: Python
+  environment: Google Colab
+  library: Pillow (PIL)
+
+prompts:
+  - step: 1
+    role: user
+    goal: Initial Implementation
+    content: |
+      pythonで実装する
+      実行はgooglecolabで行う
+      次のタスクを満たすコードを作成してください
+      任意の画像を読み込み解像度を落とす
+    result: Implemented image resizing (downscaling) script.
+
+  - step: 2
+    role: user
+    goal: Feature Modification
+    content: |
+      変更
+      元のサイズは保ちつつモザイクを入れる
+    result: |
+      Modified script to apply mosaic effect while maintaining original resolution.
+      Technique used: Downscale then upscale using Nearest Neighbor interpolation.
+
+options:
+  mosaic_level: 
+    description: Level of pixelation (higher means more pixelated).
+    default: 15

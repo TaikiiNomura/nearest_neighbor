@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/TaikiiNomura/nearest_neighbor/blob/main/src/main.ipynb)
+
 # nearest_neighbor
 Google Colab上で動作する、画像にモザイク処理を適用するPythonスクリプトです。
 画像の元の解像度（ピクセルサイズ）を維持したまま、全体にモザイク効果をかけます。
